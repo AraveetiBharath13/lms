@@ -44,7 +44,7 @@ public class LibraryManagementSystem {
         
         System.out.println(bookInv.getCurrentBookings());
         
-        System.out.println(" ");
+        System.out.println(" "); 
         System.out.println("-----------------------------------");
         
         bookInv.issueBook(patron1, book3, LocalDate.now()

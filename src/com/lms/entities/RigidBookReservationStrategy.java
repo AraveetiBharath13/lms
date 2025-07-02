@@ -16,7 +16,7 @@ public class RigidBookReservationStrategy implements BookReservationStrategy{
 					.flatMap(List::stream)
 					.filter(b -> b.getBook().getBookTitle().equals(bookName)).findFirst();
 		
-		if(brOps.isEmpty()) {
+		if(brOps.isEmpty()) { 
 			
 				System.out.print(bookName + " book is unavailable right now, will be availble soon"
 						+ " Please reserve books which are availble in the list");

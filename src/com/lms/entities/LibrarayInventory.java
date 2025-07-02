@@ -196,7 +196,7 @@ public class LibrarayInventory {
 	}
 	
 	// overloaded to reserve the book future purpose
-	
+	 
 	public BookReservation issueBooks(Patron patron, 
 			Book book,LocalDate fromDate, LocalDate toDate) {
 		

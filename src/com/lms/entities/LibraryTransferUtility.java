@@ -1,6 +1,6 @@
 package com.lms.entities;
 
-public class LibraryTransferUtility {
+public class LibraryTransferUtility { 
 	
 	public void transferBooks(LibrarayInventory libInv,
 			LibrarayInventory toLib, String bookName, int numberofBooks ) {

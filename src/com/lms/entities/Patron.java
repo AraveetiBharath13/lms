@@ -1,6 +1,6 @@
 package com.lms.entities;
 
-import java.util.HashMap;
+import java.util.HashMap; 
 import java.util.Map;
 
 public class Patron {

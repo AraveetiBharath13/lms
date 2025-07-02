@@ -25,14 +25,14 @@ public class Book {
 	}
 	public void setNumberOfCopiesAvailable(int numberOfCopiesAvailable) {
 		NumberOfCopiesAvailable = numberOfCopiesAvailable;
-	}
+	} 
 	public String getBookTitle() {
 		return bookTitle;
 	}
 	public void setBookTitle(String bookTitle) {
 		this.bookTitle = bookTitle;
-	}
-	public String getAuthor() {
+	} 
+	public String getAuthor() {  
 		return author;
 	}
 	public void setAuthor(String author) {
