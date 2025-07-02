@@ -27,7 +27,7 @@ public class Book {
 		NumberOfCopiesAvailable = numberOfCopiesAvailable;
 	} 
 	public String getBookTitle() {
-		return bookTitle;
+		return bookTitle; 
 	}
 	public void setBookTitle(String bookTitle) {
 		this.bookTitle = bookTitle;

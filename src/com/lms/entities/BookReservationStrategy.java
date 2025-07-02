@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 public interface BookReservationStrategy {
-	
+	 
 	public static final Map<BookReservation, Patron> reservedBooks = new HashMap();
 	
 	boolean checkIsBookReserved(BookReservation bookReservation);

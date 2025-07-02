@@ -202,7 +202,7 @@ public class LibrarayInventory {
 		
 		if(this.booksAvailable.get(book.getBookTitle()) == null) {
 			System.out.print("This Book will be available soon :)");
-		}
+		} 
 		
 		BookReservation bookReservation = null;
 		

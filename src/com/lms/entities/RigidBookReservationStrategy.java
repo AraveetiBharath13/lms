@@ -21,7 +21,7 @@ public class RigidBookReservationStrategy implements BookReservationStrategy{
 				System.out.print(bookName + " book is unavailable right now, will be availble soon"
 						+ " Please reserve books which are availble in the list");
 			return ;
-		}
+		} 
 		
 		LocalDate fromDate = LocalDate.now();//. .get().getReservationDate();
 		fromDate = fromDate.plusDays(1);
